@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="film.css">
+</head>
+<body>
+    <div>
+        <input type="text"
+        placeholder="search movie"
+        id="search-input"
+        oninput="debounce(main,1000)"
+        />
+       <div id="search-results-container"></div>  
+    </div>
+</body>
+<script src="film.js"></script>
+</html>

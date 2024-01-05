@@ -1,0 +1,13 @@
+#search-result-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.moviecard{
+    border: 1px solid red;
+}
+.movie-card >img{
+  width: 200px;
+  height: 200px;
+}
